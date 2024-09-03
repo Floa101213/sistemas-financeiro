@@ -1,0 +1,54 @@
+form {
+
+margin-top: 20%;
+
+
+
+
+}
+
+.fa-solid {
+    font-size: 100px;
+border-radius: 10px;
+border: #1C1C1C;
+border-width: 40px;
+
+ 
+color: #FFD700;
+
+
+
+}
+
+body{
+
+background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-e-branco-ondulado_23-2150530927.jpg);
+background-repeat: no-repeat;
+background-size:1925px;
+
+
+}
+
+
+.form-label{
+color: rgb(243, 243, 243);
+
+
+}
+
+.btn{
+
+width: 40%;
+background-color: darkblue;
+
+
+
+}
+
+.aula{
+
+background-color: darkgreen;
+color: antiquewhite;
+width: 40%;
+
+}
