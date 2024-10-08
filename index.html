@@ -23,18 +23,18 @@
             <i class="fa-solid fa-coins"></i>
 
             <h1 class="h1">acesse seu Website</h1>
-            <form>
-                <div class="mb-3">
+            <form action="php/logon.php" method="post">
+                <div class="mb-3"> 
                   <label for="email-insert" class="form-label">Email insert</label>
-                  <input type="email" class="form-control" id="email-insert" aria-describedby="emailHelp">
+                  <input type="email" name="email" class="form-control" id="email-insert" aria-describedby="emailHelp">
                   
                 </div>
                 <div class="mb-3">
                   <label for="password" class="form-label">senha</label>
-                  <input type="password" class="form-control" id="password">
+                  <input type="password" name="senha" class="form-control" id="password">
                 </div>
                 
-                <button type="submit" class="btn aula btn-sucess">entrar</button>
+                <button type="submit" class="btn aula btn-sucess"  >entrar</button>
                 <a href="cadastro.html" type="password" class="btn btn-primary">cadastrar</a>
                 
 
