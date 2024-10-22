@@ -22,7 +22,7 @@ color: #FFD700;
 
 body{
 
-background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-e-branco-ondulado_23-2150530927.jpg);
+background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHBwcGBwcICAcGBwoGBgcGBw8ICQYKFREWFhURExMYHCggGBolGx8TITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NGg0NDisZHxkrKysrKysrLSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALwBDAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECBQT/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AysB6XPAAAEAAAAAAAAABEAAAAAAAAAEAAAAAAAAQAaaAAAAAAAEAAQAAAAAAAQAAAAAAABAAAAAAABpoAAARAAAAAAAAABAAAAAAAAEAAAAAAAAAAAFUAAAAAAAQAAAAAAABAAAAAAAAAAAAAAUAAAUAEAAAAAAAAAAQAAAAAAAAAAAFAAAAAAAFABAAAAAAEAAAAAAAAAAAAABQAAAAAABQAAAAARAAAAAAAAAAAAAAUAAAAAAAUAAAAAAAAAFUAZZAAAAAAABQAAAAAAAABQAAAAAAAVQAAAAAABlkAAAFAAAAAAAFAAAAAAAAUAUAAAAAAAAAFABhkBBVAAAABAUQBQFAAAAAAUAUAAAAAAAAAAAFEFGURQSAAQAARRAURQAAAQFEAVFARQAAABAUQBRFAAWgAUAFUAAAAAAAAAQACAAIAAAAAEEFEEFARQAAABAVBRH/2Q==);
 background-repeat: no-repeat;
 background-size:1925px;
 
@@ -39,7 +39,7 @@ color: rgb(243, 243, 243);
 .btn{
 
 width: 40%;
-background-color: darkblue;
+background-color: rgba(51, 73, 71, 0.363);
 
 
 
@@ -62,4 +62,59 @@ width: 40%;
 .cadastro {
 
 
+}
+
+.inicial{
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+border: solid 10px white;
+border-radius: 50px;
+padding: 50px;
+margin: 100px;
+
+}
+
+
+#CadastrarInicial{
+background-color: #FFD700;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+width: 500px;
+height: 50px;
+margin-bottom: 20px;
+
+
+}
+
+
+#lançamento{
+background-color:brown;
+color: #1C1C1C;
+font-family: Arial, Helvetica, sans-serif;
+width: 500px;
+height: 50px;
+
+}
+
+#TelaInicial{
+
+border: solid 10px white;
+
+
+}
+
+#a{
+    background-color: #FFD700;
+}
+
+
+#voltar{
+
+    background-color: #FFD700;
 }
