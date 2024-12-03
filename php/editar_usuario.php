@@ -45,7 +45,7 @@ $row = $result->fetch_assoc();
                   <label for="email" class="form-label">email</label>
                   <input type="email" value="<?php echo $row['email']; ?>" class="form-control" id="email" name="email" aria-describedby="emailHelp">
                   
-                </div>
+                </div> 
                 <div class="mb-3">
                   <label for="position" class="form-label">Cargo</label>
                   <input type="text" value="<?php echo $row['cargo']; ?>" class="form-control" id="position" name="cargo" aria-describedby="emailHelp">
