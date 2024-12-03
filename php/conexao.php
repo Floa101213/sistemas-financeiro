@@ -12,10 +12,6 @@ $conexao = new mysqli($servidor,$usuario,$senha,$db);
 if ($conexao->connect_error) {
     die('Você se fudeu'. $conexao->connect_error);
 
-
-}else{
-
-    echo "Mission Sucefull monkey";
 }
 
 

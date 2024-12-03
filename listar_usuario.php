@@ -9,6 +9,7 @@
 <body>
     
 
+
     <header class="header">
         <nav><h3>lista de usuario</h4></nav>
         <nav>user</nav>
@@ -40,10 +41,35 @@
                 </td>
             </tr>
         </tbody>
+        <tbody>
+    <?php
+include 'php/conexao.php';
+    $sql = "SELECT * FROM tb_user";
+    $query = $conexao->query($sql);
 
-    </table>
+    if ($query->num_rows > 0) {
+while ($row = $query->fetch_assoc()) {
+    echo "<tr>";
+    echo "<td>" . $row['id_usuario'] . "</td>";
+    echo "<td>" . $row['nome'] . "</td>";
+    echo "<td>" . $row['email'] . "</td>";
+    echo "<td>" . $row['cargo'] . "</td>";
 
+    echo "<td><a href='php/editar_usuario.php?id=" . $row['id_usuario'] . "'>Editar</a></td>";
+
+    echo "<td><a href='php/excluir_usuario.php?id=" . $row['id_usuario'] . "' onnclick=\"return confirm('Você tem certeza de que deseja excluir esse usuario?')\">Excluir</a></td>";
+    echo "</tr>";
+
+        }
+
+    } else {
+        echo "<tr><td colspan'6'>Usuario não encontrado.</td></tr>";
+}
+
+?>
+
+</tbody>
+</table>
 </form>
-
 </body>
 </html>
